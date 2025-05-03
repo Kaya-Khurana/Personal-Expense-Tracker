@@ -1,0 +1,783 @@
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\expenses\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\Income\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\reports\urls.py changed, reloading.
+C:\financefusion\financefusion\reports\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\reports\views.py changed, reloading.
+C:\financefusion\financefusion\reports\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\reports\views.py changed, reloading.
+C:\financefusion\financefusion\reports\views.py changed, reloading.
+Watching for file changes with StatReloader
+Received request for FinancialReportView
+User: kaya@gmail.com
+Query params: <QueryDict: {}>
+Fetching expenses...
+Found 0 expenses
+Fetching incomes...
+Found 0 incomes
+Serializing data...
+Calculating breakdowns...
+Returning report data
+Watching for file changes with StatReloader
+Received request for FinancialReportView
+User: kanika@gmail.com
+Query params: <QueryDict: {}>
+Fetching expenses...
+Found 1 expenses
+Fetching incomes...
+Found 0 incomes
+Serializing data...
+Calculating breakdowns...
+Returning report data
+Received request for FinancialReportView
+User: kanika@gmail.com
+Query params: <QueryDict: {'start_date': ['2025-02-21'], 'end_date': ['2025-03-23'], 'categories': ['entertainment']}>
+Fetching expenses...
+Found 1 expenses
+Fetching incomes...
+Found 0 incomes
+Serializing data...
+Calculating breakdowns...
+Returning report data
+Not Found: /api/reports/financial-report/download/
+Not Found: /api/reports/financial-report/download/
+Received request for FinancialReportView
+User: kanika@gmail.com
+Query params: <QueryDict: {}>
+Fetching expenses...
+Found 1 expenses
+Fetching incomes...
+Found 0 incomes
+Serializing data...
+Calculating breakdowns...
+Returning report data
+Bad Request: /api/expenses/
+C:\financefusion\financefusion\reports\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\reports\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\reports\views.py changed, reloading.
+Watching for file changes with StatReloader
+Received request for FinancialReportView
+User: kaya@gmail.com
+Query params: <QueryDict: {}>
+Fetching expenses...
+Found 0 expenses
+Fetching incomes...
+Found 0 incomes
+Serializing data...
+Calculating breakdowns...
+Returning report data
+Received request for FinancialReportView
+User: kanika@gmail.com
+Query params: <QueryDict: {}>
+Fetching expenses...
+Found 4 expenses
+Fetching incomes...
+Found 0 incomes
+Serializing data...
+Calculating breakdowns...
+Returning report data
+Received request for FinancialReportView
+User: kanika@gmail.com
+Query params: <QueryDict: {'start_date': ['2025-02-21'], 'end_date': ['2025-03-23'], 'categories': ['food', 'entertainment']}>
+Fetching expenses...
+Found 2 expenses
+Fetching incomes...
+Found 0 incomes
+Serializing data...
+Calculating breakdowns...
+Returning report data
+Not Found: /api/reports/financial-report/download/
+Not Found: /api/reports/financial-report/download/
+C:\financefusion\financefusion\reports\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\reports\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\reports\views.py changed, reloading.
+Watching for file changes with StatReloader
+Received request for FinancialReportView
+User: kanika@gmail.com
+Query params: <QueryDict: {'start_date': ['2025-03-16'], 'end_date': ['2025-03-23']}>
+Fetching expenses...
+Found 4 expenses
+Serializing data...
+Calculating breakdowns...
+Returning report data
+Not Found: /api/reports/financial-report/download/
+Not Found: /api/reports/financial-report/download/
+Received request for FinancialReportView
+User: kanika@gmail.com
+Query params: <QueryDict: {'start_date': ['2025-03-16'], 'end_date': ['2025-03-23']}>
+Fetching expenses...
+Found 4 expenses
+Serializing data...
+Calculating breakdowns...
+Returning report data
+Not Found: /api/reports/financial-report/download/
+Not Found: /api/reports/financial-report/download/
+Internal Server Error: /api/reports/financial-report/download/
+Traceback (most recent call last):
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+Received request for FinancialReportView
+User: kaya@gmail.com
+Query params: <QueryDict: {}>
+Fetching expenses...
+Found 0 expenses
+Serializing data...
+Calculating breakdowns...
+Returning report data
+C:\financefusion\financefusion\reports\views.py changed, reloading.
+Watching for file changes with StatReloader
+Received request for FinancialReportView
+User: kanika@gmail.com
+Query params: <QueryDict: {}>
+Fetching expenses...
+Found 4 expenses
+Serializing data...
+Calculating breakdowns...
+Returning report data
+Received request for FinancialReportView
+User: kanika@gmail.com
+Query params: <QueryDict: {'start_date': ['2025-02-21'], 'end_date': ['2025-03-23'], 'categories': ['entertainment', 'other']}>
+Fetching expenses...
+Found 2 expenses
+Serializing data...
+Calculating breakdowns...
+Returning report data
+Not Found: /api/reports/financial-report/download/
+Not Found: /api/reports/financial-report/download/
+Received request for FinancialReportView
+User: kanika@gmail.com
+Query params: <QueryDict: {}>
+Fetching expenses...
+Found 4 expenses
+Serializing data...
+Calculating breakdowns...
+Returning report data
+Received request for FinancialReportView
+User: kanika@gmail.com
+Query params: <QueryDict: {'start_date': ['2025-02-21'], 'end_date': ['2025-03-23'], 'categories': ['entertainment', 'other']}>
+Fetching expenses...
+Found 2 expenses
+Serializing data...
+Calculating breakdowns...
+Returning report data
+Not Found: /api/reports/financial-report/download/
+Not Found: /api/reports/financial-report/download/
+Method Not Allowed: /api/users/register/
+Method Not Allowed: /api/users/register/
+C:\financefusion\financefusion\reports\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\reports\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\reports\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\reports\views.py changed, reloading.
+Watching for file changes with StatReloader
+Received request for FinancialReportView
+User: kanika@gmail.com
+Query params: <QueryDict: {'start_date': ['2025-02-21'], 'end_date': ['2025-03-23'], 'categories': ['entertainment', 'other']}>
+Fetching expenses...
+Found 2 expenses
+Serializing data...
+Calculating breakdowns...
+Returning report data
+Not Found: /api/reports/financial-report/download/
+Not Found: /api/reports/financial-report/download/
+Not Found: /api/reports/financial-report/download/
+Not Found: /api/reports/financial-report/download/
+Unauthorized: /api/users/login/
+Unauthorized: /api/users/login/
+Unauthorized: /api/users/login/
+Received request for FinancialReportView
+User: kanika@gmail.com
+Query params: <QueryDict: {'start_date': ['2025-02-21'], 'end_date': ['2025-03-23'], 'categories': ['entertainment', 'other']}>
+Fetching expenses...
+Found 2 expenses
+Serializing data...
+Calculating breakdowns...
+Returning report data
+Not Found: /api/reports/financial-report/download/
+Not Found: /api/reports/financial-report/download/
+C:\financefusion\financefusion\reports\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\reports\views.py changed, reloading.
+Watching for file changes with StatReloader
+Received request for FinancialReportView
+User: kanika@gmail.com
+Query params: <QueryDict: {'start_date': ['2025-02-21'], 'end_date': ['2025-03-23'], 'categories': ['other']}>
+Fetching expenses...
+Found 1 expenses
+Serializing data...
+Calculating breakdowns...
+Returning report data
+Not Found: /api/reports/financial-report/download/
+Not Found: /api/reports/financial-report/download/
+Not Found: /
+Not Found: /api/reports/
+Not Found: /api/reports/
+Received request for FinancialReportView
+User: kaya@gmail.com
+Query params: <QueryDict: {}>
+Fetching expenses...
+Found 0 expenses
+Serializing data...
+Calculating breakdowns...
+Returning report data
+Not Found: /api/reports/financial-report/downloads/
+Not Found: /api/reports/financial-report/downloads/1
+Not Found: /api/reports/financial-report/downloads/
+Not Found: /api/reports/financial-report/downloads/
+Not Found: /api/reports/financial-report/downloads/
+Not Found: /api/reports/financial-report/downloads/
+Not Found: /api/reports/financial-report/downloads/
+Not Found: /api/reports/financial-report/downloads/
+Not Found: /api/reports/financial-report/downloads/
+Not Found: /api/reports/financial-report/downloads/
+Not Found: /api/reports/financial-report/downloads/
+Not Found: /api/reports/financial-report/downloads/
+Not Found: /api/reports/financial-report/downloads/
+Not Found: /api/reports/financial-report/downloads/
+C:\financefusion\financefusion\reports\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\reports\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\reports\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /api/reports/financial-report/download/
+Not Found: /api/reports/financial-report/download/
+Not Found: /api/reports/financial-report/download/
+C:\financefusion\financefusion\reports\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /api/reports/financial-report/download/
+Not Found: /api/reports/financial-report/download/
+C:\financefusion\financefusion\reports\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Bad Request: /api/expenses/
+Bad Request: /api/expenses/
+Bad Request: /api/expenses/
+C:\financefusion\financefusion\expenses\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\expenses\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\expenses\models.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /api/expenses/
+C:\financefusion\financefusion\expenses\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\expenses\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\expenses\models.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+C:\financefusion\financefusion\expenses\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\expenses\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\expenses\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\expenses\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\expenses\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/expenses/
+Traceback (most recent call last):
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\generics.py", line 243, in get
+    return self.list(request, *args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\serializers.py", line 714, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\serializers.py", line 523, in to_representation
+    for field in fields:
+                 ^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ~~~~~~~~~~~~~~~^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\serializers.py", line 1079, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\serializers.py", line 1175, in get_field_names
+    assert field_name in fields, (
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: The field 'payment_method_display' was declared on serializer ExpenseSerializer, but has not been included in the 'fields' option.
+Internal Server Error: /api/expenses/
+Traceback (most recent call last):
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\generics.py", line 243, in get
+    return self.list(request, *args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\serializers.py", line 714, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\serializers.py", line 523, in to_representation
+    for field in fields:
+                 ^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ~~~~~~~~~~~~~~~^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\serializers.py", line 1079, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\serializers.py", line 1175, in get_field_names
+    assert field_name in fields, (
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: The field 'payment_method_display' was declared on serializer ExpenseSerializer, but has not been included in the 'fields' option.
+Internal Server Error: /api/expenses/
+Traceback (most recent call last):
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\generics.py", line 243, in get
+    return self.list(request, *args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\serializers.py", line 714, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\serializers.py", line 523, in to_representation
+    for field in fields:
+                 ^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ~~~~~~~~~~~~~~~^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\serializers.py", line 1079, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\serializers.py", line 1175, in get_field_names
+    assert field_name in fields, (
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: The field 'payment_method_display' was declared on serializer ExpenseSerializer, but has not been included in the 'fields' option.
+Internal Server Error: /api/expenses/
+Traceback (most recent call last):
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\generics.py", line 246, in post
+    return self.create(request, *args, **kwargs)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\serializers.py", line 223, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\serializers.py", line 442, in run_validation
+    value = self.to_internal_value(data)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\serializers.py", line 495, in to_internal_value
+    for field in fields:
+                 ^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\serializers.py", line 378, in _writable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ~~~~~~~~~~~~~~~^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\serializers.py", line 1079, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\serializers.py", line 1175, in get_field_names
+    assert field_name in fields, (
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: The field 'payment_method_display' was declared on serializer ExpenseSerializer, but has not been included in the 'fields' option.
+C:\financefusion\financefusion\expenses\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /api/expenses/72/update/
+Not Found: /api/expenses/72/update/
+Not Found: /api/expenses/71/delete/
+Not Found: /api/expenses/71/delete/
+Not Found: /api/expenses/71/update/
+Not Found: /api/reports/financial-report/download/
+Not Found: /api/reports/financial-report/download/
+Not Found: /api/reports/financial-report/download/
+Not Found: /api/reports/financial-report/download/
+Not Found: /api/reports/financial-report/download/
+Not Found: /
+Not Found: /api/reports/download/
+C:\financefusion\financefusion\milestones\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\milestones\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\milestones\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\reports\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\reports\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\reports\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /api/reports/financial-report/
+Traceback (most recent call last):
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\financefusion\financefusion\reports\views.py", line 23, in get
+    categories = json.loads(categories)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.752.0_x64__qbz5n2kfra8p0\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.752.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.752.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Internal Server Error: /api/reports/financial-report/
+Traceback (most recent call last):
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\financefusion\financefusion\reports\views.py", line 23, in get
+    categories = json.loads(categories)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.752.0_x64__qbz5n2kfra8p0\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.752.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.752.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+C:\financefusion\financefusion\reports\views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /api/reports/financial-report/
+Not Found: /api/reports/download/
+Not Found: /api/reports/download/
+C:\financefusion\financefusion\reports\views.py changed, reloading.
+Watching for file changes with StatReloader
+FinancialReportView accessed
+Bad Request: /api/reports/financial-report/
+FinancialReportView accessed
+Bad Request: /api/reports/financial-report/
+FinancialReportView accessed
+Bad Request: /api/reports/financial-report/
+FinancialReportView accessed
+Bad Request: /api/reports/financial-report/
+FinancialReportView accessed
+Bad Request: /api/reports/financial-report/
+C:\financefusion\financefusion\reports\views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /api/reports/financial-report/
+C:\financefusion\financefusion\reports\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\reports\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\reports\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\milestones\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\milestones\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\financefusion\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\milestones\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\milestones\models.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/milestones/progress/13/
+Traceback (most recent call last):
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\financefusion\financefusion_env\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\financefusion\financefusion\milestones\views.py", line 51, in post
+    milestone.current_amount += float(amount)
+TypeError: unsupported operand type(s) for +=: 'decimal.Decimal' and 'float'
+C:\financefusion\financefusion\milestones\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\milestones\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\milestones\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\milestones\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\milestones\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\financefusion\financefusion\reports\views.py changed, reloading.
+Watching for file changes with StatReloader
+FinancialReportView accessed
+Query params: <QueryDict: {'start_date': ['2025-02-21'], 'end_date': ['2025-03-23'], 'total_income': ['100000.0']}>
+Not Found: /api/reports/download/
+Not Found: /api/reports/download/
+FinancialReportView accessed
+Query params: <QueryDict: {'start_date': ['2025-02-21'], 'end_date': ['2025-03-23'], 'total_income': ['15300.0']}>
+Not Found: /api/reports/download/
+Not Found: /api/reports/download/
+FinancialReportView accessed
+Query params: <QueryDict: {'start_date': ['2025-02-21'], 'end_date': ['2025-03-23'], 'total_income': ['10000.0'], 'categories': ['["entertainment", "groceries", "other"]']}>
+FinancialReportView accessed
+Query params: <QueryDict: {'start_date': ['2025-02-21'], 'end_date': ['2025-03-23'], 'total_income': ['25000.0'], 'categories': ['["entertainment", "groceries", "bills", "other"]']}>
+Not Found: /
+Not Found: /api/reports/
+FinancialReportView accessed
+Query params: <QueryDict: {}>
+Bad Request: /api/reports/financial-report/
+Not Found: /api/reports/financial-report/download/
+Not Found: /api/reports/financial-report/download/
+FinancialReportDownloadView accessed
+Query params: <QueryDict: {}>
+Bad Request: /api/reports/download/
+FinancialReportDownloadView accessed
+Query params: <QueryDict: {}>
+Bad Request: /api/reports/download/
+FinancialReportDownloadView accessed
+Query params: <QueryDict: {'format': ['json']}>
+Bad Request: /api/reports/download/
+FinancialReportView accessed
+Query params: <QueryDict: {}>
+Bad Request: /api/reports/financial-report/
+FinancialReportView accessed
+Query params: <QueryDict: {'start_date': ['2025-02-21'], 'end_date': ['2025-03-23'], 'total_income': ['10000.0'], 'categories': ['["bills", "groceries", "other"]']}>
+FinancialReportView accessed
+Query params: <QueryDict: {}>
+Bad Request: /api/reports/financial-report/
+FinancialReportView accessed
+Query params: <QueryDict: {}>
+Bad Request: /api/reports/financial-report/
+FinancialReportDownloadView accessed
+Query params: <QueryDict: {}>
+Bad Request: /api/reports/download/
+FinancialReportView accessed
+Query params: <QueryDict: {}>
+Bad Request: /api/reports/financial-report/
+FinancialReportView accessed
+Query params: <QueryDict: {'start_date': ['2025-02-21'], 'end_date': ['2025-03-23'], 'total_income': ['100000.0'], 'categories': ['["entertainment", "transport", "bills"]']}>
+FinancialReportView accessed
+Query params: <QueryDict: {'start_date': ['2025-02-21'], 'end_date': ['2025-03-23'], 'total_income': ['10000.0'], 'categories': ['["entertainment", "transport", "other"]']}>
+FinancialReportView accessed
+Query params: <QueryDict: {'start_date': ['2025-02-21'], 'end_date': ['2025-03-23'], 'total_income': ['10000.0'], 'categories': ['["entertainment", "groceries", "transport", "other"]']}>
+Not Found: /api/reports/download/
+Unauthorized: /api/users/login/
+Unauthorized: /api/users/login/
+FinancialReportView accessed
+Query params: <QueryDict: {'start_date': ['2025-02-21'], 'end_date': ['2025-03-23'], 'total_income': ['45000.0'], 'categories': ['["entertainment", "food", "bills", "other", "transport"]']}>
+Not Found: /api/reports/download/
+FinancialReportDownloadView accessed
+Query params: <QueryDict: {}>
+Bad Request: /api/reports/download/
+FinancialReportView accessed
+Query params: <QueryDict: {'start_date': ['2025-03-16'], 'end_date': ['2025-03-23'], 'total_income': ['0.0'], 'categories': ['["bills", "transport", "groceries"]']}>
+FinancialReportView accessed
+Query params: <QueryDict: {'start_date': ['2025-02-21'], 'end_date': ['2025-03-23'], 'total_income': ['85000.0'], 'categories': ['["bills", "entertainment", "other"]']}>
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+Bad Request: /api/users/register/
+FinancialReportView accessed
+Query params: <QueryDict: {}>
+Bad Request: /api/reports/financial-report/
+FinancialReportView accessed
+Query params: <QueryDict: {'start_date': ['2025-03-25'], 'end_date': ['2025-04-24'], 'total_income': ['100000.0'], 'categories': ['["entertainment", "transport"]'], 'payment_methods': ['["cash", "upi", "card"]']}>
+Watching for file changes with StatReloader
+FinancialReportView accessed
+Query params: <QueryDict: {}>
+Bad Request: /api/reports/financial-report/
+FinancialReportView accessed
+Query params: <QueryDict: {'start_date': ['2025-04-17'], 'end_date': ['2025-04-24'], 'total_income': ['0.0'], 'categories': ['["groceries", "entertainment", "transport", "utilities", "shopping", "food", "bills", "other"]'], 'payment_methods': ['["cash", "card", "upi"]']}>
+FinancialReportView accessed
+Query params: <QueryDict: {'start_date': ['2025-04-17'], 'end_date': ['2025-04-24'], 'total_income': ['10000.0'], 'categories': ['["groceries", "entertainment", "transport", "utilities", "shopping", "food", "bills", "other"]'], 'payment_methods': ['["cash", "card", "upi"]']}>
+Unauthorized: /api/users/login/
+Watching for file changes with StatReloader
+Not Found: /
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+FinancialReportView accessed
+Query params: <QueryDict: {'start_date': ['2025-03-25'], 'end_date': ['2025-04-24'], 'total_income': ['10000.0'], 'categories': ['["groceries", "entertainment", "utilities", "transport", "food", "shopping", "bills", "other"]'], 'payment_methods': ['["card", "cash", "upi"]']}>
+Not Found: /users/register
+Not Found: /users/register/
+Not Found: /users/
+Not Found: /api/users/
+Method Not Allowed: /api/users/register/
+Not Found: /api/users/expenses/
+FinancialReportView accessed
+Query params: <QueryDict: {'start_date': ['2025-03-25'], 'end_date': ['2025-04-24'], 'total_income': ['99900.0'], 'categories': ['["entertainment", "groceries", "transport", "utilities", "food", "shopping", "bills"]'], 'payment_methods': ['["cash", "card", "upi"]']}>
+Watching for file changes with StatReloader
+Unauthorized: /api/users/login/
+Unauthorized: /api/users/login/
+Unauthorized: /api/users/login/
+Unauthorized: /api/users/login/
+Not Found: /favicon.ico
+FinancialReportView accessed
+Query params: <QueryDict: {}>
+Bad Request: /api/reports/financial-report/
+FinancialReportView accessed
+Query params: <QueryDict: {'start_date': ['2025-04-03'], 'end_date': ['2025-05-03'], 'total_income': ['1000000.0'], 'categories': ['["entertainment", "groceries", "utilities", "transport", "food", "shopping", "bills", "other"]'], 'payment_methods': ['["cash", "card", "upi"]']}>

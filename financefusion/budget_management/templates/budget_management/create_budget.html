@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Budget</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+   <style>
+        body {
+            background: linear-gradient(to right, #fcefee, #e0f3e4);
+            font-family: 'Poppins', sans-serif;
+            color: #555;
+        }
+        .card {
+            background: #fff;
+            border: none;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+        }
+        .form-control {
+            background: #f8f8f8;
+            color: #555;
+            border: 1px solid #ddd;
+            padding: 12px;
+            border-radius: 8px;
+        }
+        .form-control::placeholder {
+            color: #aaa;
+        }
+        .btn-submit {
+            background:rgb(88, 126, 231);
+            border: none;
+            padding: 12px;
+            width: 100%;
+            border-radius: 8px;
+            font-size: 18px;
+            transition: all 0.3s ease-in-out;
+        }
+        .btn-submit:hover {
+            background:rgb(104, 110, 203);
+            transform: scale(1.05);
+        }
+        .container {
+            max-width: 450px;
+            margin-top: 50px;
+        }
+        .card-title {
+            font-size: 24px;
+            font-weight: bold;
+            color:rgb(74, 146, 230);
+        }
+        .form-label {
+            font-weight: 500;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h2 class="card-title text-center mb-4">🚀 Create Budget</h2>
+            <form method="POST">
+                {% csrf_token %}
+                <div class="mb-3">
+                    <label class="form-label">Budget Name</label>
+                    <input type="text" name="name" class="form-control" placeholder="Enter budget name" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Budget Limit (Rs)</label>
+                    <input type="number" name="limit" class="form-control" placeholder="Enter budget limit" required>
+                </div>
+                <button type="submit" class="btn btn-submit">Add Budget</button>
+            </form>
+        </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Dashboard</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Arial', sans-serif;
+        }
+        .container {
+            margin-top: 40px;
+        }
+        .table th, .table td {
+            vertical-align: middle;
+        }
+        .remaining-positive {
+            color: green;
+            font-weight: bold;
+        }
+        .remaining-negative {
+            color: red;
+            font-weight: bold;
+        }
+        .btn-custom {
+            padding: 6px 12px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2 class="text-center mb-4">Budget Dashboard</h2>
+
+    <!-- Add Budget Button -->
+    <div class="d-flex justify-content-end mb-3">
+        <a href="{% url 'create_budget' %}" class="btn btn-primary">➕ Add Budget Category</a>
+    </div>
+
+    <!-- Budget Table -->
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover bg-white shadow-sm">
+            <thead class="table-dark">
+                <tr>
+                    <th>Category</th>
+                    <th>Limit (Rs)</th>
+                    <th>Spent (Rs)</th>
+                    <th>Remaining (Rs)</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for category in categories %}
+                <tr>
+                    <td>{{ category.name }}</td>
+                    <td>${{ category.limit }}</td>
+                    <td>${{ category.spent }}</td>
+                    <td class="{% if category.remaining_budget >= 0 %}remaining-positive{% else %}remaining-negative{% endif %}">
+                        ${{ category.remaining_budget }}
+                    </td>
+                    <td>
+                        <a href="{% url 'update_spending' category.id %}" class="btn btn-warning btn-sm btn-custom">✏️ Update</a>
+                    </td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="5" class="text-center text-muted">No budget categories available.</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
